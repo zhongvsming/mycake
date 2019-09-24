@@ -1,0 +1,41 @@
+<view class="head">
+  <image src="../../images/cakenav.jpg"></image>
+  <view>
+    <text class="big-text">欢迎光临</text>
+    <text>￥28配送|同城免费送</text>
+  </view>
+</view>
+
+<van-notice-bar text="足协杯战线连续第2年上演广州德比战，上赛季半决赛上恒大以两回合5-3的总比分淘汰富力。">
+  <text slot="left-icon">[公告]</text>
+</van-notice-bar>
+
+<view class="body">
+  <van-sidebar active="{{ active }}" bind:change="onChange">
+    <van-sidebar-item title="标签名称" />
+    <van-sidebar-item title="标签名称" />
+    <van-sidebar-item title="标签名称" />
+    <van-sidebar-item title="标签名称" />
+    <van-sidebar-item title="标签名称" />
+  </van-sidebar>
+
+  <view class="detail">
+    <text>女神款</text>
+    <view class="card">
+      <image src="../../images/cakenav.jpg"></image>
+      <view class="card-text">
+        <text>爱丽丝公主</text>
+        <text style="font-size:0.8rem;color:#ccc;margin:5rpx 0;">销量：0笔</text>
+        <view class="card-text-pri">
+          <text>￥198.00</text>
+          <text style="color:#dfdfdf;text-decoration:line-through;">0.00</text>
+          <button>选规格</button>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="footer">
+
+</view>

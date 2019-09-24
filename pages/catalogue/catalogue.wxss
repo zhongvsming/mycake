@@ -1,0 +1,57 @@
+/* pages/catalogue/catalogue.wxss */
+.head{
+  padding: 30rpx;
+  display: flex;
+}
+.head image{
+  width: 120rpx;
+  height: 120rpx;
+  display: block;
+  margin-right: 30rpx;
+}
+.head .big-text{
+  font-weight: bold;
+  font-size: 1rem;
+}
+.head text{
+  display: block;
+  font-size: 0.7rem;
+}
+.body{
+  display: flex;
+}
+.detail{
+  flex: 1;
+}
+.card{
+  padding: 30rpx;
+  display: flex;
+  border-bottom: 1px solid #dcdcdc;
+}
+.card image{
+  width: 120rpx;
+  height: 120rpx;
+  margin-right: 30rpx;
+  display: block
+}
+.card .card-text{
+  flex: 1;
+}
+.card .card-text text{
+  display: block;
+}
+.card .card-text .card-text-pri{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.card .card-text .card-text-pri button{
+  width: 120rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 0.7rem;
+  padding: 0;
+  background: #E95322;
+  color: white;
+  margin: 0 10rpx;
+}
