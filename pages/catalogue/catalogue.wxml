@@ -37,5 +37,9 @@
 </view>
 
 <view class="footer">
+  <view class="buy">结算</view>
+</view>
 
+<view class="cart-bg">
+  <van-icon name="shopping-cart-o" size="30" color="white" />
 </view>
